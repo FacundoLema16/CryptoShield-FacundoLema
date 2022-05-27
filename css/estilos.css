@@ -1,0 +1,206 @@
+@charset "UTF-8";
+/*Base*/
+@import url("https://fonts.googleapis.com/css2?family=Courgette&family=Lora:wght@400;500;600;700&family=Macondo&family=Permanent+Marker&display=swap");
+/* line 3, ../../sass prubea/scss/_base.scss */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 10, ../../sass prubea/scss/_base.scss */
+html, body {
+  font-family: 'Permanent Marker', cursive;
+  background-color: rgba(145, 103, 49, 0.596);
+  color: rgba(32, 32, 32, 0.808);
+}
+
+/* line 15, ../../sass prubea/scss/_base.scss */
+html html, body html {
+  scroll-behavior: smooth;
+}
+
+/* line 19, ../../sass prubea/scss/_base.scss */
+html h1, html h4, html p, body h1, body h4, body p {
+  line-height: 1.4rem;
+}
+
+/* line 23, ../../sass prubea/scss/_base.scss */
+html p, body p {
+  font-size: 1rem;
+}
+
+/*Estructura*/
+/*Navegador*/
+/* line 4, ../../sass prubea/scss/_estructura.scss */
+.logo {
+  width: 5vw;
+}
+
+/* line 8, ../../sass prubea/scss/_estructura.scss */
+.large {
+  font-size: 1.6rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: black;
+  margin-left: 1%;
+}
+
+/* line 15, ../../sass prubea/scss/_estructura.scss */
+.large .large1 {
+  font-size: 1.6rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: black;
+  margin-left: 1%;
+  margin-top: 10%;
+}
+
+/* line 24, ../../sass prubea/scss/_estructura.scss */
+.large .large2 {
+  font-size: 1.6rem;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  color: black;
+  margin-left: 1%;
+  margin-top: 10%;
+}
+
+/* line 34, ../../sass prubea/scss/_estructura.scss */
+#mainheader {
+  background-image: url(/img/UltimaPrueba3.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Patrocinio*/
+/* line 44, ../../sass prubea/scss/_estructura.scss */
+#patrocinio {
+  background-image: linear-gradient(to right, #000, #808080);
+  padding-top: 70px;
+  padding-bottom: 400px;
+}
+
+/* line 50, ../../sass prubea/scss/_estructura.scss */
+#patrocinio .patrocinio-box {
+  float: left;
+  width: 32%;
+  text-align: center;
+}
+
+/* line 57, ../../sass prubea/scss/_estructura.scss */
+#patrocinio .patrocinio-box img {
+  height: 145px;
+  margin-top: 27%;
+}
+
+/*Fundadores*/
+/* line 69, ../../sass prubea/scss/_estructura.scss */
+#fundadores {
+  text-align: center;
+  padding-bottom: 100px;
+  margin-top: 30%;
+}
+
+/* line 73, ../../sass prubea/scss/_estructura.scss */
+#fundadores #fundadores h4 {
+  padding-bottom: 20px;
+}
+
+/* line 77, ../../sass prubea/scss/_estructura.scss */
+#fundadores .fundadores-box {
+  float: left;
+  width: 33%;
+  padding: 50px;
+}
+
+/* line 83, ../../sass prubea/scss/_estructura.scss */
+#fundadores .fundadores-box img {
+  width: 220px;
+  text-align: center;
+}
+
+/* line 88, ../../sass prubea/scss/_estructura.scss */
+#fundadores #redes-fundadores {
+  display: block;
+}
+
+/* line 92, ../../sass prubea/scss/_estructura.scss */
+#fundadores .REDES a {
+  color: black;
+}
+
+/*Guia*/
+/* line 102, ../../sass prubea/scss/_estructura.scss */
+#guia {
+  padding-bottom: 50px;
+  margin-top: 40%;
+}
+
+/* line 106, ../../sass prubea/scss/_estructura.scss */
+#guia #guia p {
+  text-align: center;
+  padding-top: 100px;
+}
+
+/* line 111, ../../sass prubea/scss/_estructura.scss */
+#guia #guia h3 {
+  text-align: center;
+}
+
+/* line 118, ../../sass prubea/scss/_estructura.scss */
+divguia-1 {
+  background-color: black;
+}
+
+/*¿Que Somos?*/
+/* line 129, ../../sass prubea/scss/_estructura.scss */
+#quesomos {
+  text-align: center;
+  margin-top: 30%;
+}
+
+/* line 133, ../../sass prubea/scss/_estructura.scss */
+#quesomos #quesomos p {
+  text-align: center;
+  margin-top: 10%;
+}
+
+/*Footer*/
+/* line 144, ../../sass prubea/scss/_estructura.scss */
+#mainfooter {
+  text-align: center;
+  padding: 30px;
+  background-image: url(/img/istockphoto-1128458526-170667a.jpg);
+}
+
+/* line 149, ../../sass prubea/scss/_estructura.scss */
+.redes-sociales {
+  float: right;
+  display: flex;
+  width: 120px;
+  height: 30px;
+}
+
+/* line 155, ../../sass prubea/scss/_estructura.scss */
+.redes-sociales .redes-sociales a {
+  margin: 0 5px;
+  line-height: 5px;
+  font-size: 30px;
+  color: #024463;
+  box-shadow: 0px 5px 5px 0px #363501;
+}
+
+/* line 163, ../../sass prubea/scss/_estructura.scss */
+.redes-sociales .redes-sociales a:hover {
+  filter: blur(2px);
+}
+
+/* line 166, ../../sass prubea/scss/_estructura.scss */
+.redes-sociales .redes-sociales a:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0px 5px 5px 0px #363500;
+  filter: none;
+}
+
+/*# sourceMappingURL=estilos.css.map */
